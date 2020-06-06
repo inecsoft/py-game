@@ -19,7 +19,9 @@ while running:
     
     # Draw a solid blue circle in the centre
     pygame.draw.circle(screen,(0,0,255),(250,250), 30)
-    
+
+    pygame.draw.square(screen,(20,20,20) ,(40,50), 40)    
+
     # Flip the display
     pygame.display.flip()
 
